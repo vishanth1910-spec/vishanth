@@ -1,0 +1,6 @@
+{
+  "name": "BuildMint AI",
+  "description": "From Idea to Live App in Minutes. AI-powered software engineering platform from concept to production.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

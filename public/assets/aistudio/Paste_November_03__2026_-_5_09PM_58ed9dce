@@ -1,0 +1,1103 @@
+PROJECT NAME: BuildMint AI
+### Tagline: From Idea to Live App in Minutes.
+### Vision: Your AI-powered software engineering team. From concept to production.
+
+---
+
+# 1. MASTER ROLE AND OBJECTIVE
+
+Act as an elite team of senior software engineers, AI architects, product designers, UX researchers, DevOps engineers, security specialists, and startup product strategists.
+
+Your mission is to build **BuildMint AI**, a next-generation, full-stack AI application development platform that transforms natural-language ideas into fully functional, production-ready applications.
+
+Users should be able to describe what they want to build, and the platform should intelligently:
+
+- Understand their requirements.
+- Ask clarifying questions when necessary.
+- Plan the architecture.
+- Design the UI/UX.
+- Generate complete frontend and backend code.
+- Create and configure databases.
+- Implement authentication and authorization.
+- Run the application in a live preview.
+- Test, debug, and repair its own code.
+- Modify applications through natural-language instructions.
+- Track changes and maintain project history.
+- Export, connect to GitHub, and deploy applications.
+- Continuously improve applications through AI assistance.
+
+**Core principle:** Build a real, functional, secure, scalable, and extensible software platform. Do not deliver merely a landing page, static dashboard, UI mockup, or collection of disconnected features.
+
+Every feature must have a clear implementation path, meaningful functionality, and proper integration with the rest of the system.
+
+---
+
+# 2. PRODUCT VISION AND POSITIONING
+
+BuildMint AI should function as an intelligent software development environment where nontechnical users can build software without coding expertise and experienced developers can accelerate their workflows with AI.
+
+### Core product pillars
+
+1. **AI App Builder:** Transform prompts into complete applications.
+2. **AI Software Engineer:** Plan, implement, debug, and improve code.
+3. **Visual Development Studio:** Inspect, preview, and edit applications.
+4. **Backend Architect:** Generate APIs, databases, authentication, and business logic.
+5. **AI Testing Agent:** Validate applications and automatically repair errors.
+6. **Deployment Assistant:** Prepare, configure, and deploy applications.
+7. **Project Workspace:** Maintain persistent projects, files, versions, and conversations.
+8. **AI Collaboration:** Support multiple specialized agents working together on complex applications.
+
+---
+
+# 3. COMPLETE USER JOURNEY
+
+Implement the following end-to-end workflow:
+
+1. User signs up, logs in, or enters an explicitly supported demo mode.
+2. User creates a new project and describes an application.
+3. AI analyzes the prompt and identifies missing requirements.
+4. AI asks only essential clarification questions.
+5. AI generates a structured application specification.
+6. AI creates a development plan with tasks and dependencies.
+7. AI selects the appropriate technology stack and architecture.
+8. AI generates the project structure, components, pages, APIs, and database schema.
+9. AI initializes the development environment.
+10. AI builds the application and resolves compilation errors.
+11. The application appears in an interactive live preview.
+12. User modifies the application through conversational instructions.
+13. AI analyzes the existing project and produces targeted changes.
+14. User can inspect code, diffs, logs, and generated files.
+15. AI runs tests and validates the changes.
+16. User saves, restores, duplicates, or exports the project.
+17. User connects GitHub or configures a deployment provider.
+18. AI prepares the production build and deployment configuration.
+19. The application is deployed and receives a verified public URL.
+20. User can continue modifying the deployed project's source through BuildMint AI.
+
+Maintain a seamless workflow without unnecessary page reloads or loss of project state.
+
+---
+
+# 4. PREMIUM USER INTERFACE AND EXPERIENCE
+
+Create an elegant, modern, responsive SaaS platform with a polished developer-tool aesthetic.
+
+## A. Landing Page
+
+Create a professional landing page containing:
+
+- Hero section with a compelling headline.
+- Prompt input demonstrating AI app generation.
+- Live product preview or interactive demonstration.
+- Clear call-to-action buttons: "Start Building" and "Explore Examples."
+- Feature highlights and product capabilities.
+- Interactive showcase of generated applications.
+- Example projects and templates.
+- Workflow explanation.
+- Pricing section with configurable plans.
+- Frequently asked questions.
+- Footer with documentation, support, legal pages, and social links.
+
+The landing page must communicate the value of the product immediately.
+
+## B. User Dashboard
+
+Include:
+
+- Personalized welcome section.
+- Prominent "Create New App" action.
+- AI prompt input directly on the dashboard.
+- Recent projects with visual thumbnails.
+- Project name, framework, last modified date, and status.
+- Search, filtering, and sorting.
+- Grid and list views.
+- Favorite and pinned projects.
+- Duplicate, rename, archive, and delete options.
+- Project templates and starter applications.
+- Recent activity and project history.
+- Usage statistics and AI credits, if applicable.
+- Account settings and subscription management.
+
+## C. AI Project Creation Wizard
+
+Allow users to start with a single natural-language prompt.
+
+Advanced optional configuration:
+
+- Application category.
+- Frontend framework.
+- Backend framework.
+- Database provider.
+- Authentication method.
+- AI model integration.
+- UI design system.
+- Color palette.
+- Light, dark, or system theme.
+- Responsive design preferences.
+- Deployment target.
+- Integrations and third-party services.
+
+Provide intelligent defaults and avoid overwhelming beginners.
+
+## D. Main Development Workspace
+
+Implement a professional, customizable workspace with four major areas.
+
+### Left Panel — AI Development Assistant
+
+- Conversational AI interface.
+- Project-aware context.
+- Requirements clarification.
+- Architecture and implementation planning.
+- Task progress and status.
+- Streaming AI responses.
+- File-change summaries.
+- Error analysis and repair suggestions.
+- Suggested next actions.
+- Context-aware follow-up prompts.
+- Conversation history.
+- Multiple conversation threads per project.
+- Stop generation and cancel operations.
+- Undo and redo.
+- Approval controls for sensitive changes.
+
+### Center Panel — Application Preview
+
+- Actual running application, not a static image.
+- Interactive components and navigation.
+- Desktop, tablet, and mobile preview.
+- Responsive viewport controls.
+- Refresh and fullscreen.
+- Preview URL and route navigation.
+- Loading, error, and empty states.
+- Console error visibility.
+- Preview screenshot capture.
+- Browser interaction testing.
+- Automatic refresh after successful builds.
+
+### Right Panel — Code Editor and Explorer
+
+- File and folder explorer.
+- Syntax-highlighted editor.
+- Monaco Editor integration.
+- Multiple file tabs.
+- File search.
+- Global project search.
+- Syntax diagnostics.
+- Code formatting.
+- Copy and download options.
+- AI-generated file indicators.
+- Diff viewer.
+- File history.
+- Code navigation.
+- Intelligent code suggestions.
+- Read-only and editable modes.
+
+### Bottom Panel — Development Console
+
+- Terminal output.
+- Build logs.
+- Runtime logs.
+- Dependency installation status.
+- Test results.
+- TypeScript diagnostics.
+- API request diagnostics.
+- Database connection status.
+- Preview runtime errors.
+- AI repair actions.
+
+Make panels resizable, collapsible, and responsive. Persist workspace layout preferences.
+
+---
+
+# 5. ADVANCED AI ORCHESTRATION ENGINE
+
+Build a modular AI orchestration system that transforms a user prompt into a complete application.
+
+## A. AI Project Planner
+
+The planner must:
+
+- Interpret user requirements and intent.
+- Identify application functionality.
+- Extract business rules.
+- Identify user roles and permissions.
+- Determine pages and navigation.
+- Define reusable components.
+- Plan backend services.
+- Identify database entities and relationships.
+- Detect required integrations.
+- Identify security and performance considerations.
+- Generate a structured project specification.
+- Estimate implementation complexity.
+- Break work into executable tasks.
+
+Represent plans using structured JSON schemas rather than relying exclusively on free-form text.
+
+## B. Multi-Agent Architecture
+
+Implement specialized AI agents with clear responsibilities.
+
+### 1. Product Manager Agent
+Transforms user ideas into structured product requirements, user stories, and acceptance criteria.
+
+### 2. UI/UX Designer Agent
+Creates design systems, layouts, interaction patterns, responsive behavior, and accessibility guidelines.
+
+### 3. Software Architect Agent
+Selects technology stacks, project structure, system architecture, API contracts, and database strategies.
+
+### 4. Frontend Developer Agent
+Generates React components, pages, forms, navigation, responsive layouts, and client-side logic.
+
+### 5. Backend Developer Agent
+Generates APIs, server-side business logic, validation, authentication, and authorization.
+
+### 6. Database Architect Agent
+Designs relational schemas, indexes, relationships, migrations, and query strategies.
+
+### 7. QA and Testing Agent
+Creates test cases, executes checks, detects regressions, and verifies acceptance criteria.
+
+### 8. Debugging Agent
+Analyzes logs, traces errors to their sources, and proposes minimal, targeted fixes.
+
+### 9. Security Agent
+Checks authentication, authorization, input validation, dependency risks, secret exposure, and insecure generated code.
+
+### 10. Deployment Agent
+Prepares production builds, environment configuration, deployment manifests, and release verification.
+
+Use an orchestrator to coordinate agents, manage dependencies, and consolidate results.
+
+Do not invoke every agent for every request. Select agents according to the task and complexity.
+
+---
+
+# 6. AUTONOMOUS DEVELOPMENT MODES
+
+Introduce selectable AI operating modes.
+
+## Mode 1: Instant Build
+Generate a working application quickly using sensible defaults.
+
+## Mode 2: Plan and Build
+Show the architecture and implementation plan before generating code.
+
+## Mode 3: Autonomous Engineer
+Allow AI to plan, implement, test, debug, and iterate with minimal supervision.
+
+## Mode 4: Expert Developer
+Provide maximum control over architecture, files, dependencies, APIs, and implementation decisions.
+
+## Mode 5: Learning Mode
+Explain generated code, architecture, and development decisions while building.
+
+Users must be able to switch modes per project.
+
+In autonomous mode, require explicit approval before destructive actions, external deployments, sensitive permission changes, or costly operations.
+
+---
+
+# 7. AI CODE GENERATION AND PROJECT ENGINE
+
+Implement a reliable code-generation pipeline.
+
+1. Parse the prompt.
+2. Generate a structured application specification.
+3. Create an architecture plan.
+4. Generate a dependency-aware task graph.
+5. Initialize the project structure.
+6. Generate files in manageable batches.
+7. Validate imports, exports, and dependencies.
+8. Install approved dependencies.
+9. Run compilation and type checks.
+10. Resolve detected errors.
+11. Start the preview environment.
+12. Verify routes and core interactions.
+13. Report completion with a feature summary.
+
+## Code Quality Requirements
+
+- Clean, maintainable TypeScript.
+- Modular architecture.
+- Reusable components.
+- Consistent naming conventions.
+- Separation of concerns.
+- Proper error handling.
+- Strict typing.
+- Accessible interfaces.
+- Responsive layouts.
+- No unnecessary code duplication.
+- No fake functionality or decorative controls.
+- No unexplained placeholder implementations.
+- No hardcoded secrets.
+- No silent failure handling.
+
+Generate functional implementations rather than merely visually convincing components.
+
+---
+
+# 8. NATURAL-LANGUAGE PROJECT EDITING
+
+Allow users to modify applications through conversational instructions.
+
+Example commands:
+
+- "Change the design to dark navy and white."
+- "Add Google authentication."
+- "Create an admin dashboard."
+- "Connect the contact form to the database."
+- "Add payment integration using Stripe."
+- "Add an interactive analytics dashboard."
+- "Make this application responsive."
+- "Create a user profile and settings page."
+- "Add notifications and email alerts."
+- "Fix the error in the preview."
+- "Improve page loading speed."
+- "Add role-based access control."
+- "Convert this into a progressive web app."
+- "Generate API documentation."
+- "Add a chatbot powered by an LLM."
+- "Improve SEO and accessibility."
+- "Create a production-ready deployment configuration."
+
+## Intelligent Editing Pipeline
+
+For each modification:
+
+1. Understand the requested change.
+2. Inspect the existing project and relevant files.
+3. Identify dependencies and affected components.
+4. Determine whether the change requires clarification.
+5. Create a minimal implementation plan.
+6. Generate targeted patches.
+7. Show a change summary and diff.
+8. Validate the patch.
+9. Run relevant tests.
+10. Update the preview.
+11. Report what changed and what remains incomplete.
+
+Preserve unrelated functionality. Avoid rewriting the entire application for a small modification.
+
+---
+
+# 9. VISUAL AI EDITOR
+
+Add a visual editing mode that complements conversational coding.
+
+Users should be able to:
+
+- Select an element in the preview.
+- Inspect its component and source file.
+- Modify text and styles.
+- Adjust padding, margins, spacing, and sizing.
+- Change colors, borders, and typography.
+- Configure layout properties.
+- Edit responsive breakpoints.
+- Add or remove UI elements.
+- Request AI improvements for selected elements.
+- Apply changes and instantly view the result.
+
+Implement element selection and source mapping only where the execution environment supports it reliably.
+
+Maintain synchronization between visual edits and source code.
+
+---
+
+# 10. DESIGN SYSTEM AND UI GENERATION
+
+Generate complete, consistent design systems for each project.
+
+## Design Capabilities
+
+- Color palette generation.
+- Typography selection.
+- Spacing and sizing scales.
+- Component variants.
+- Border radius and elevation.
+- Icon selection.
+- Navigation patterns.
+- Responsive breakpoints.
+- Light and dark themes.
+- Accessibility color contrast.
+- Motion and interaction guidelines.
+
+## Supported Design Styles
+
+- Minimalist.
+- Modern SaaS.
+- Glassmorphism.
+- Neobrutalism.
+- Material-inspired.
+- Editorial.
+- Corporate.
+- Creative portfolio.
+- Luxury.
+- Dashboard-focused.
+- Playful startup.
+- E-commerce storefront.
+
+Provide a design style selector with visual examples.
+
+## Component Library
+
+Create a reusable library of:
+
+- Buttons.
+- Inputs.
+- Selects.
+- Checkboxes.
+- Dialogs.
+- Drawers.
+- Dropdowns.
+- Tooltips.
+- Cards.
+- Tables.
+- Charts.
+- Navigation bars.
+- Sidebars.
+- Tabs.
+- Notifications.
+- Toasts.
+- Forms.
+- Skeleton loaders.
+- Empty states.
+- Error states.
+
+Use accessible, well-tested components and consistent design tokens.
+
+---
+
+# 11. BACKEND, DATABASE, AND API GENERATION
+
+AI must generate real backend functionality whenever the requested application requires it.
+
+## Backend Capabilities
+
+- REST API endpoints.
+- Optional GraphQL support through an adapter.
+- Server-side validation.
+- Business logic.
+- CRUD operations.
+- File uploads.
+- Search and filtering.
+- Pagination.
+- Sorting.
+- Notifications.
+- Scheduled jobs.
+- Webhooks.
+- Email integrations.
+- Third-party API integrations.
+- Error handling and logging.
+
+## Database Capabilities
+
+- Schema generation.
+- Table relationships.
+- Migrations.
+- Index creation.
+- Seed data.
+- Data validation.
+- Query optimization.
+- CRUD integration.
+- Database backups where supported.
+
+## Initial Technology Stack
+
+- Frontend: React, TypeScript, Vite.
+- Styling: Tailwind CSS.
+- Components: accessible component library.
+- Backend: Node.js and TypeScript.
+- Database: PostgreSQL.
+- ORM: Prisma or Drizzle.
+- Authentication: Supabase Auth or an equivalent secure provider.
+- Storage: configurable object storage.
+- AI: configurable server-side LLM provider adapters.
+- Editor: Monaco Editor.
+- Testing: Vitest and Playwright.
+- Version control: Git.
+- Deployment: Vercel initially, with extensible provider adapters.
+
+Keep technology choices modular. Prioritize reliable React and TypeScript generation in the initial release.
+
+---
+
+# 12. AUTHENTICATION AND USER MANAGEMENT
+
+Implement secure, functional authentication.
+
+Supported features:
+
+- Email and password signup.
+- Email verification.
+- Secure login and logout.
+- Password reset.
+- OAuth providers such as Google and GitHub.
+- Session persistence.
+- Protected routes.
+- User profile.
+- Account settings.
+- Project ownership.
+- Role-based permissions.
+- Organization and team membership architecture.
+
+Never simulate a successful login without a functioning authentication mechanism.
+
+Provide a properly configured demo mode when authentication credentials are unavailable.
+
+---
+
+# 13. INTEGRATIONS AND CONNECTIVITY
+
+Create an extensible integrations marketplace.
+
+Potential integrations:
+
+- GitHub.
+- GitLab.
+- Supabase.
+- Firebase.
+- Vercel.
+- Netlify.
+- Stripe.
+- Resend.
+- OpenAI-compatible APIs.
+- Google OAuth.
+- Google Analytics.
+- Cloud storage.
+- Database providers.
+- Webhook endpoints.
+
+## Integration Management
+
+Each integration should support:
+
+- Connect and disconnect.
+- Authentication status.
+- Permission management.
+- Configuration.
+- Connection validation.
+- Error reporting.
+- Usage information.
+- Secure credential storage.
+
+Do not display integrations as connected unless the connection has actually been established and validated.
+
+---
+
+# 14. LIVE PREVIEW AND SECURE EXECUTION
+
+Build a real execution environment for generated applications.
+
+## Requirements
+
+- Isolated project environments.
+- Secure containerization or sandboxing.
+- Resource limits.
+- Execution timeouts.
+- Dependency validation.
+- Controlled network access.
+- Restricted filesystem access.
+- Secure environment variables.
+- Start, stop, restart, and rebuild.
+- Runtime and compilation logs.
+- Preview error reporting.
+- Automatic refresh after successful builds.
+- Multiple project isolation.
+- Environment cleanup.
+
+Never execute untrusted generated code within the privileged application server.
+
+Use isolated execution infrastructure such as containers or a secure sandbox provider.
+
+If infrastructure is unavailable, support a clearly labeled template preview mode and explain the limitation.
+
+---
+
+# 15. AI TESTING AND SELF-HEALING
+
+Create an integrated testing and repair system.
+
+## Testing Console
+
+Show:
+
+- Build status.
+- Compilation status.
+- TypeScript errors.
+- Linting diagnostics.
+- Unit tests.
+- Integration tests.
+- End-to-end test results.
+- Runtime exceptions.
+- API failures.
+- Preview errors.
+- Dependency warnings.
+- Security warnings.
+- Performance diagnostics.
+
+## AI Repair Workflow
+
+1. Detect an error from an actual execution process.
+2. Capture the relevant error message, stack trace, and affected files.
+3. Analyze the root cause.
+4. Generate a minimal patch.
+5. Validate the patch.
+6. Apply the patch in an isolated environment.
+7. Rerun the relevant tests.
+8. Update the preview if successful.
+9. Report the actual outcome.
+
+Allow users to approve or reject proposed fixes.
+
+Implement bounded repair attempts and prevent infinite AI debugging loops.
+
+Never report successful tests, builds, or repairs without real execution results.
+
+---
+
+# 16. VERSION CONTROL AND CHANGE MANAGEMENT
+
+Implement project history and reliable recovery.
+
+Features:
+
+- Automatic snapshots before significant modifications.
+- Named checkpoints.
+- File-level history.
+- Project-level history.
+- Diff viewer.
+- Restore previous versions.
+- Undo and redo.
+- Branching architecture for experimental changes.
+- Commit summaries.
+- Git integration.
+- Change attribution.
+- AI-generated change descriptions.
+
+Before risky changes, create a recoverable checkpoint.
+
+Users must be able to revert to a previously working version without losing their project.
+
+---
+
+# 17. EXPORT AND DEPLOYMENT SYSTEM
+
+Implement a complete deployment workflow.
+
+## Export
+
+- Download complete project as ZIP.
+- Export source code.
+- Export configuration.
+- Include README and setup instructions.
+- Generate `.env.example`.
+- Include database migrations.
+- Exclude secrets and private credentials.
+- Provide local development instructions.
+
+## Git Integration
+
+- Connect GitHub or GitLab.
+- Create repositories.
+- Push source code.
+- Commit generated changes.
+- View commit history.
+- Synchronize project updates.
+- Handle conflicts safely.
+
+## Deployment
+
+Initially implement at least one real provider integration.
+
+- Production build.
+- Environment variable configuration.
+- Deployment validation.
+- Build logs.
+- Deployment status.
+- Error handling.
+- Rollback where supported.
+- Verified public URL.
+- Deployment history.
+- Redeployment after modifications.
+
+If credentials are missing, provide an actionable setup wizard.
+
+Never invent deployment URLs or report success without confirmation from the provider.
+
+---
+
+# 18. PROJECT TEMPLATES AND STARTER GALLERY
+
+Provide a rich template gallery.
+
+Categories:
+
+- SaaS applications.
+- Admin dashboards.
+- E-commerce.
+- Portfolio websites.
+- Landing pages.
+- AI chatbots.
+- Productivity tools.
+- Educational platforms.
+- Booking systems.
+- CRM applications.
+- Finance applications.
+- Social applications.
+- Blogging platforms.
+- Analytics dashboards.
+- Internal business tools.
+
+Each template should contain a working starting point, not just a visual preview.
+
+Allow users to:
+
+- Preview templates.
+- Search and filter.
+- Customize templates with AI.
+- Start from a template.
+- Save custom templates.
+- Share templates where supported.
+
+---
+
+# 19. AI KNOWLEDGE AND PROJECT CONTEXT
+
+Implement intelligent context management.
+
+The AI should maintain access to:
+
+- Project requirements.
+- Application specification.
+- File structure.
+- Relevant source code.
+- Current architecture.
+- Dependencies.
+- Database schema.
+- API contracts.
+- Previous changes.
+- Recent conversations.
+- Error history.
+- Testing results.
+- Project conventions.
+
+## Context Optimization
+
+- Retrieve relevant files instead of sending the entire project repeatedly.
+- Maintain summaries of previous development sessions.
+- Track important architectural decisions.
+- Avoid outdated information.
+- Detect conflicting instructions.
+- Prioritize current project state over stale AI assumptions.
+- Support large projects through indexing and retrieval.
+
+The AI must understand the existing application before modifying it.
+
+---
+
+# 20. SECURITY, PRIVACY, AND RELIABILITY
+
+Implement security as a core system requirement.
+
+## Security Controls
+
+- Server-side API key storage.
+- Secure secret management.
+- Authentication and authorization.
+- Project-level access control.
+- Input validation.
+- Output sanitization.
+- Rate limiting.
+- Request timeouts.
+- Secure session handling.
+- CSRF protection where applicable.
+- Protection against unauthorized project access.
+- Dependency scanning.
+- Generated-code security analysis.
+- Restricted execution environments.
+- Network access controls.
+- Environment variable isolation.
+- Audit logging.
+- Safe file handling.
+- Database migrations and backup strategies.
+- Secure error reporting.
+
+Treat prompts, generated code, dependencies, and external API responses as untrusted input.
+
+Never expose user secrets in generated frontend code, logs, prompts, or exported source files.
+
+---
+
+# 21. PERFORMANCE AND SCALABILITY
+
+Architect the platform for future growth.
+
+Implement:
+
+- Modular services.
+- Efficient database queries.
+- Pagination.
+- Caching where appropriate.
+- Background jobs.
+- Queue-based task execution.
+- Streaming AI responses.
+- Request cancellation.
+- Concurrent project handling.
+- Execution resource limits.
+- Retry strategies.
+- Observability.
+- Structured logging.
+- Error monitoring.
+- Graceful failure handling.
+
+Avoid unnecessary infrastructure complexity in the MVP. Start with a maintainable architecture that can evolve.
+
+---
+
+# 22. BILLING AND USAGE MANAGEMENT
+
+Design a configurable monetization architecture.
+
+Potential plans:
+
+- Free.
+- Starter.
+- Pro.
+- Team.
+- Enterprise.
+
+Usage metrics:
+
+- AI requests.
+- Tokens consumed.
+- Project count.
+- Build minutes.
+- Execution time.
+- Storage usage.
+- Deployment count.
+- Advanced agent usage.
+
+Features:
+
+- Usage dashboard.
+- Plan limits.
+- Upgrade prompts.
+- Subscription management.
+- Billing history.
+- Payment integration.
+- Usage notifications.
+- Graceful limit enforcement.
+
+Do not require payment infrastructure for the initial MVP. Keep billing modular and configurable.
+
+---
+
+# 23. COLLABORATION AND TEAM WORKSPACE
+
+Design the foundation for collaborative development.
+
+Potential features:
+
+- Shared projects.
+- Team workspaces.
+- Project invitations.
+- Owner, editor, and viewer roles.
+- Shared AI conversations.
+- Comments on code changes.
+- Activity feed.
+- Team-level integrations.
+- Shared templates.
+- Organization settings.
+
+For the initial MVP, prioritize secure individual project ownership while preparing the architecture for team collaboration.
+
+---
+
+# 24. ACCESSIBILITY AND RESPONSIVE DESIGN
+
+Every interface must support:
+
+- Mobile, tablet, and desktop.
+- Keyboard navigation.
+- Semantic HTML.
+- Accessible labels.
+- Screen-reader support.
+- Focus management.
+- Appropriate color contrast.
+- Reduced-motion preferences.
+- Responsive typography.
+- Accessible dialogs and forms.
+- Error messages that are easy to understand.
+
+Ensure the generated applications follow these same standards.
+
+---
+
+# 25. REQUIRED DEVELOPMENT PHASES
+
+## Phase 1 — Foundation
+- Project architecture.
+- Responsive landing page.
+- Authentication.
+- Dashboard.
+- Database setup.
+- Project creation workflow.
+
+## Phase 2 — Workspace
+- AI chat interface.
+- Code explorer.
+- Monaco editor.
+- File management.
+- Project persistence.
+- Workspace layout.
+
+## Phase 3 — AI Integration
+- Server-side provider adapters.
+- Prompt processing.
+- Application specification generation.
+- AI planning.
+- Streaming responses.
+- Initial code generation.
+
+## Phase 4 — Application Runtime
+- Project execution environment.
+- Live preview.
+- Build pipeline.
+- Runtime logs.
+- Error reporting.
+
+## Phase 5 — Conversational Development
+- Project-aware context.
+- Targeted code patches.
+- Change diffs.
+- Approval workflow.
+- Version history.
+- Undo and redo.
+
+## Phase 6 — Testing and Repair
+- Automated testing.
+- Diagnostics.
+- AI-assisted debugging.
+- Patch validation.
+- Regression testing.
+
+## Phase 7 — Export and Deployment
+- ZIP export.
+- Git integration.
+- Production builds.
+- Deployment provider.
+- Deployment logs.
+- Verified URLs.
+
+## Phase 8 — Advanced Features
+- Multi-agent orchestration.
+- Visual editing.
+- Template marketplace.
+- Integrations.
+- Usage analytics.
+- Billing architecture.
+- Collaboration.
+
+## Phase 9 — Production Readiness
+- Security audit.
+- Performance optimization.
+- Accessibility testing.
+- Error handling.
+- Database validation.
+- End-to-end testing.
+- Documentation.
+- Final quality assurance.
+
+Prioritize a working end-to-end MVP before expanding into advanced capabilities.
+
+---
+
+# 26. ACCEPTANCE CRITERIA
+
+The MVP is complete only when users can:
+
+1. Register, log in, or enter a clearly supported demo mode.
+2. Create a project from a natural-language prompt.
+3. Receive a structured application plan.
+4. Generate a functional React and TypeScript application using a configured AI provider.
+5. View and interact with the generated application.
+6. Inspect and edit source files.
+7. Modify the application through AI chat.
+8. See actual file changes and diffs.
+9. Run real build checks and inspect errors.
+10. Save and reopen projects without losing data.
+11. Restore previous versions.
+12. Export the complete source code.
+13. Connect to a supported Git provider.
+14. Configure a deployment provider.
+15. Deploy successfully and receive a verified URL.
+
+Additionally:
+
+- All visible primary actions must work.
+- No dead buttons or fake integrations.
+- No broken navigation.
+- No simulated success messages.
+- No exposed API keys.
+- No unhandled critical runtime errors.
+- No unauthorized project access.
+- No loss of project state during normal operations.
+
+---
+
+# 27. IMPLEMENTATION INSTRUCTIONS FOR THE AI BUILDER
+
+Before writing code:
+
+1. Inspect the existing environment, project structure, and installed dependencies.
+2. Identify available backend, database, authentication, AI, and deployment capabilities.
+3. Determine which credentials and integrations are configured.
+4. Establish a practical architecture.
+5. Create a development plan with prioritized tasks.
+6. Identify infrastructure-dependent features.
+7. Begin implementing the highest-priority working features.
+
+During development:
+
+- Build incrementally.
+- Create reusable components.
+- Maintain consistent design patterns.
+- Use real backend integrations whenever available.
+- Persist data correctly.
+- Validate every major feature.
+- Run the application frequently.
+- Inspect actual errors.
+- Fix defects before proceeding.
+- Avoid unnecessary rewrites.
+- Keep the codebase maintainable.
+- Report progress truthfully.
+
+If a required API key, service, or infrastructure component is unavailable:
+
+- Do not fabricate a connection.
+- Do not silently skip the functionality.
+- Implement the appropriate adapter and configuration interface.
+- Clearly identify what is operational and what requires setup.
+- Provide a working alternative where possible.
+
+Deliver the complete source code, database migrations, environment variable examples, setup instructions, and comprehensive README.
+
+---
+
+# 28. FINAL PRODUCT OBJECTIVE
+
+BuildMint AI must deliver the experience of having an intelligent software engineering team available on demand.
+
+A user should be able to enter:
+
+"Build me a complete AI-powered student productivity platform with authentication, task management, an AI study assistant, notes, reminders, analytics, a responsive dashboard, and a database."
+
+BuildMint AI should transform that description into a structured plan, implement the application, generate the necessary backend, run it, validate its functionality, display it in a live preview, and allow the user to refine and deploy it through natural-language conversations.
+
+**The ultimate goal:**
+
+Make software development as intuitive as having a conversation, as powerful as a professional IDE, and as reliable as a disciplined software engineering workflow.
+
+**BuildMint AI — Imagine it. Build it. Launch it.**
